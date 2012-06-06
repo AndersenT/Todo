@@ -7,8 +7,12 @@ $(function() {
   Parse.$ = jQuery;
 
   // Initialize Parse with your Parse application javascript keys
-  Parse.initialize("0Oq3tTp9JMvd72LOrGN25PiEq9XgVHCxo57MQbpT",
-                   "vUFy2o7nFx3eeKVlZneYMPI2MBoxT5LhWNoIWPja");
+
+  // Parse.initialize("APPLICATION_ID", "JAVASCRIPT_KEY");
+  // Account for Jalal Hejazi
+  Parse.initialize("aogGBk0CWWSHvxSw6BnJvA5uWSAvSX8o2GD03tCw", "wPn9Z5io9Ed4yD5i8AtVjaymGFSE6XOlVqObpJqb");
+
+
 
   // Todo Model
   // ----------
